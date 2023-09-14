@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard</title>
+    <link rel="stylesheet" href="css/Styles.css">
+</head>
+<body>
+    <section class="count-steps">
+        <ul>
+            <li class="active" id="num1">1</li>
+            <li id="num2">2</li>
+            <li id="num3">3</li>
+            <li id="num4">4</li>
+        </ul>
+    </section>
+
+    <section class="cont-general">
+        <div class="step active" id="section1">
+            <h2>PRIMERA VISTA</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur sunt autem laudantium quidem blanditiis officia quae harum qui optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo dolorum! Soluta praesentium qui natus minima perspiciatis blanditiis earum illum.
+            </p>
+            <button onclick="stepTwo()">SIGUIENTE</button>
+        </div>
+        <div class="step" id="section2">
+            <h2>SEGUNDA VISTA</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur sunt autem laudantium quidem blanditiis officia quae harum qui optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo dolorum! Soluta praesentium qui natus minima perspiciatis blanditiis earum illum.
+            </p>
+            <button onclick="stepOne()">ATRAS1</button>
+            <button onclick="stepThree()">SIGUIENTE3</button>
+        </div>
+        <div class="step" id="section3">
+            <h2>TERCERA VISTA</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur sunt autem laudantium quidem blanditiis officia quae harum qui optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo dolorum! Soluta praesentium qui natus minima perspiciatis blanditiis earum illum.
+            </p>
+            <button onclick="stepTwoBack()">ATRAS2</button>
+            <button onclick="stepFour()">SIGUIENTE4</button>
+        </div>
+        <div class="step" id="section4">
+            <h2>CUARTA VISTA</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur sunt autem laudantium quidem blanditiis officia quae harum qui optio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quo dolorum! Soluta praesentium qui natus minima perspiciatis blanditiis earum illum.
+            </p>
+            <button onclick="stepThreeBack()">ATRAS3</button>
+            <button>SIGUIENTE4</button>
+        </div>
+    </section>
+    <script src="js/Main.js"></script>
+</body>
+</html>
